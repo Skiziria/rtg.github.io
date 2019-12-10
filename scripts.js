@@ -476,7 +476,7 @@ const low_level_magic_weapons = [
 ];
 
 const armor = [
-    'Studded leather armor', 'Half plate', 'Shield', 'Breastplate', 'Plate Armor', 'Splint Armor'
+    'Studded Leather Armor', 'Half Plate', 'Shield', 'Breastplate', 'Plate Armor', 'Splint Armor'
 ];
 
 const low_level_magic_armor = [
