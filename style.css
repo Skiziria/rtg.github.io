@@ -15,7 +15,7 @@ td {
     table-layout: fixed;
 }
 
-td {
+td, button {
     padding: 10px;
 }
 

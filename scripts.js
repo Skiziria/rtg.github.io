@@ -288,10 +288,12 @@ const age = ['Young Adult', 'Middle Aged', 'Old', 'Very Old', 'Ancient',];
 const appearance = ['Tall, Thin, Attractive', 'Towering Tall', 'Grey hair, scar on lip', 'Portly', 'Short', 'Beautiful', 'Braided Beard Or Hair', 'Missing Teeth',
     'Tattoos', 'Birthmark', 'Unusual Skin Color', 'Piercings', 'Unusual Hair Color', 'Ragged Clothes', 'Distinctive Nose', 'Eye Twitch', 'Jewelry (choker)',
     'Missing Fingers', 'Ugly', 'Beautiful', 'Formal Clothes', 'Scar', 'Weird Posture', 'Weird Eye Color', 'Ashen Hair', 'Long dark hair', 'Pale skin, red hair',
-    'Long braids', 'Very muscular'];
+    'Long braids', 'Very muscular'
+];
 
 const mood = ['Agreeable', 'Carefree', 'Honest', 'Curious', 'Grumpy', 'Eager', 'Friendly', 'Happy', 'Hopeful', 'Upbeat', 'Indifferent', 'Bored', 'Focused',
-    'Suspicious', 'Tired', 'Withdrawn', 'Disagreeable', 'Argumentative', 'Agitated', 'Angry', 'Annoyed', 'Despondent', 'Gloomy', 'Jovial', 'Cautious', 'Nervous',];
+    'Suspicious', 'Tired', 'Withdrawn', 'Disagreeable', 'Argumentative', 'Agitated', 'Angry', 'Annoyed', 'Despondent', 'Gloomy', 'Jovial', 'Cautious', 'Nervous',
+];
 
 const personality = [
     'You’re a vegan, and make sure everyone you meet knows.',
@@ -831,7 +833,7 @@ const get_Jeweler_Name = () =>
     `${jeweler_adjectives[getRandomNumber(jeweler_adjectives.length)]} ${jeweler_nouns[getRandomNumber(jeweler_nouns.length)]}`;
 
 const get_Enchanter_Name = () =>
-    `${enchanter_adjectives[getRandomNumber(enchanter_adjectives.length)]} 
+    `${enchanter_adjectives[getRandomNumber(enchanter_adjectives.length)]}
     ${enchanter_nouns[getRandomNumber(enchanter_nouns.length)]}`;
 
 const get_Magic_Name = () =>
